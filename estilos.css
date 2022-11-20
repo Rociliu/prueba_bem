@@ -5,10 +5,54 @@
     padding:0;
     text-decoration: none;
 }
- h2{color:green;}
- img{
-    width: 250px;
+.header{
+    background-color: aquamarine;
+}
+.header__imag{
+
+}
+main{background-color: darkseagreen;}
+  
+ .sardinia{
+    background-color: lightcoral;
+    width: 400px;
+
+   }
+.sardinia__img{
+    width: 400px;
     height: 180px;
+   }
+.sardinia__info{
+    background-color: aquamarine;
  }
+ 
+.sardinia__info--p{
+   font-size: 14px; 
+   color: #6b6b6b;
+   margin-bottom: 50px;
+
+ }
+.sardinia__price{
+    background-color: beige;
+    
+ }
+.sardinia__price--letter{
+    font-size: 14px; 
+   color: #6b6b6b;
+
+    background-color:rgb(9, 1, 17);
+ }
+.sardinia__price--number{
+    color: #5da132;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: chocolate;    
+ }
+.sardinia__price--button{
+    height: 30px;
+    width: 180px;
+ }
+
+
 
 
