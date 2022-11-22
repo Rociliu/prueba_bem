@@ -6,39 +6,50 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-body{
-    padding-left: 100px;
-    
-    
-}
-    
+   
 
 .header{
-    background-color: rgb(207, 241, 230);
-    margin-left: 100px;
+    background-color: lightgray;
+    padding-left: 100px;
     display:flex;
-    flex-direction: row;
+    flex-direction:row;
+    flex-wrap: wrap;
+    height: 80px;
+    margin-bottom: 50px;
 }
 
 
 .header-nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     font-size: 12px;
-    width: 50%;
-    margin-left:auto;
+    width: 90vw;
+    
 }
 
-.header-nav__button:last-child {
+.header-nav__icons:last-child {
     font-size: 18px;
 }
 
-.header-nav__button {
+.header-nav__icons {
     text-decoration: none;
     color: #6b6b6b;
     padding: 5px 0;
+}
+.nav-ofertas{
+   display:flex;
+   justify-content: space-between;
+   align-items:center;
+   width: 90%;
+   height: 10px;
+   
+   
+}
+.nav-ofertas_enlace{
+   color:#6b6b6b;
+   padding: 10px;
 }
 
 main{
@@ -46,6 +57,7 @@ main{
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
+    background-color: lightgray;
 }
 
 button:hover{
@@ -100,7 +112,6 @@ button:hover{
  }
 .sardinia__button{
    
-    
     margin-top: 0;
     color:#5da132;
     border-color: #5da132;
@@ -112,11 +123,9 @@ button:hover{
     background-color: white ;
         
  }
- 
- 
 
-
- .toscana{
+ 
+  .toscana{
     background-color: lightcoral;
     width: 500px;
     height:500px;
