@@ -4,29 +4,77 @@
     margin:0;
     padding:0;
     text-decoration: none;
+    box-sizing: border-box;
 }
-.header{
-    background-color: aquamarine;
+body{
+    padding-left: 100px;
+    
+    
 }
-.header__imag{
+    
 
+.header{
+    background-color: rgb(207, 241, 230);
+    margin-left: 100px;
+    display:flex;
+    flex-direction: row;
 }
-main{background-color: darkseagreen;}
-  
+
+
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+    width: 50%;
+    margin-left:auto;
+}
+
+.header-nav__button:last-child {
+    font-size: 18px;
+}
+
+.header-nav__button {
+    text-decoration: none;
+    color: #6b6b6b;
+    padding: 5px 0;
+}
+
+main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+button:hover{
+    background-color: #5da132;
+    color:black;
+ }
+
  .sardinia{
     background-color: lightcoral;
-    width: 400px;
+    width: 500px;
+    height:500px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
 
    }
 .sardinia__img{
-    width: 400px;
-    height: 180px;
-   }
+
+        width: 500px;
+        height: 300px;
+    }
+   
 .sardinia__info{
     background-color: aquamarine;
  }
  
-.sardinia__info--p{
+.sardinia__p{
    font-size: 14px; 
    color: #6b6b6b;
    margin-bottom: 50px;
@@ -34,25 +82,332 @@ main{background-color: darkseagreen;}
  }
 .sardinia__price{
     background-color: beige;
-    
+    /*position:relative;*/
+    height: 80px;
+        
  }
-.sardinia__price--letter{
+.sardinia--p{
     font-size: 14px; 
-   color: #6b6b6b;
-
+    color: #6b6b6b;
+    width: 50px;
     background-color:rgb(9, 1, 17);
  }
-.sardinia__price--number{
+.sardinia__number{
     color: #5da132;
     font-size: 28px;
     font-weight: bold;
     background-color: chocolate;    
  }
-.sardinia__price--button{
-    height: 30px;
-    width: 180px;
+.sardinia__button{
+   
+    
+    margin-top: 0;
+    color:#5da132;
+    border-color: #5da132;
+    border-radius: 4px;
+    padding: 10px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 160px;
+    background-color: white ;
+        
+ }
+ 
+ 
+
+
+ .toscana{
+    background-color: lightcoral;
+    width: 500px;
+    height:500px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+   }
+.toscana__img{
+
+        width: 500px;
+        height: 300px;
+   }
+.toscana__info{
+    background-color: aquamarine;
  }
 
+.toscana__p{
+   font-size: 14px; 
+   color: #6b6b6b;
+   margin-bottom: 50px;
+
+ }
+.toscana__price{
+    background-color: beige;
+    /*position:relative;*/
+    height: 80px;
+        
+ }
+.toscana--p{
+    font-size: 14px; 
+    color: #6b6b6b;
+    width: 50px;
+    background-color:rgb(9, 1, 17);
+ }
+.toscana__number{
+    color: #5da132;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: chocolate;    
+ }
+.toscana__button{
+   
+    margin-left: 160px;
+    margin-top: 0;
+    color:#5da132;
+    border-color: #5da132;
+    border-radius: 4px;
+    padding: 10px 32px;
+    text-align: center;
+    font-size: 16px;
+    background-color: white ;
+        
+ }
+ 
+ 
+
+ .fiordos{
+    background-color: lightcoral;
+    width: 500px;
+    height:500px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+   }
+
+.fiordos__img{
+
+        width: 500px;
+        height: 300px;
+ }
+
+.fiordos__info{
+    background-color: aquamarine;
+ }
+ 
+.fiordos__p{
+   font-size: 14px; 
+   color: #6b6b6b;
+   margin-bottom: 50px;
+
+ }
+.fiordos__price{
+    background-color: beige;
+    /*position:relative;*/
+    height: 80px;
+        
+ }
+.fiordos--p{
+    font-size: 14px; 
+    color: #6b6b6b;
+    width: 50px;
+    background-color:rgb(9, 1, 17);
+ }
+.fiordos__number{
+    color: #5da132;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: chocolate;    
+ }
+.fiordos__button{
+   
+    margin-left: 160px;
+    margin-top: 0;
+    color:#5da132;
+    border-color: #5da132;
+    border-radius: 4px;
+    padding: 10px 32px;
+    text-align: center;
+    font-size: 16px;
+    background-color: white ;
+        
+ }
+ 
 
 
+ .munich{
+    background-color: lightcoral;
+    width: 500px;
+    height:500px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-left: 20px;
 
+   }
+.munich__img{
+        width: 500px;
+        height: 300px;
+   }
+
+.munich__info{
+    background-color: aquamarine;
+ }
+ 
+.munich__p{
+   font-size: 14px; 
+   color: #6b6b6b;
+   margin-bottom: 50px;
+
+ }
+.munich__price{
+    background-color: beige;
+    /*position:relative;*/
+    height: 80px;
+        
+ }
+.munich--p{
+    font-size: 14px; 
+    color: #6b6b6b;
+    width: 50px;
+    background-color:rgb(9, 1, 17);
+ }
+.munich__number{
+    color: #5da132;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: chocolate;    
+ }
+.munich__button{
+   
+    margin-left: 160px;
+    margin-top: 0;
+    color:#5da132;
+    border-color: #5da132;
+    border-radius: 4px;
+    padding: 10px 32px;
+    text-align: center;
+    font-size: 16px;
+    background-color: white ;
+        
+ }
+ 
+ .roma{
+    background-color: lightcoral;
+    width: 500px;
+    height:500px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+
+   }
+.roma__img{
+        width: 500px;
+        height: 300px;
+   }
+
+.roma__info{
+    background-color: aquamarine;
+ }
+ 
+.roma__p{
+   font-size: 14px; 
+   color: #6b6b6b;
+   margin-bottom: 50px;
+
+ }
+.roma__price{
+    background-color: beige;
+    /*position:relative;*/
+    height: 80px;
+        
+ }
+.roma--p{
+    font-size: 14px; 
+    color: #6b6b6b;
+    width: 50px;
+    background-color:rgb(9, 1, 17);
+ }
+.roma__number{
+    color: #5da132;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: chocolate;    
+ }
+.roma__button{
+   
+    margin-left: 160px;
+    margin-top: 0;
+    color:#5da132;
+    border-color: #5da132;
+    border-radius: 4px;
+    padding: 10px 32px;
+    text-align: center;
+    font-size: 16px;
+    background-color: white ;
+        
+ }
+ 
+ .paris{
+    background-color: lightcoral;
+    width: 500px;
+    height:500px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+   }
+.paris__img{
+
+        width: 500px;
+        height: 300px;
+   }
+.paris__info{
+    background-color: aquamarine;
+ }
+ 
+.paris__p{
+   font-size: 14px; 
+   color: #6b6b6b;
+   margin-bottom: 50px;
+
+ }
+.paris__price{
+    background-color: beige;
+    /*position:relative;*/
+    height: 80px;
+        
+ }
+.paris--p{
+    font-size: 14px; 
+    color: #6b6b6b;
+    width: 50px;
+    background-color:rgb(9, 1, 17);
+ }
+.paris__number{
+    color: #5da132;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: chocolate;    
+ }
+.paris__button{
+   
+    margin-left: 160px;
+    margin-top: 0;
+    color:#5da132;
+    border-color: #5da132;
+    border-radius: 4px;
+    padding: 10px 32px;
+    text-align: center;
+    font-size: 16px;
+    background-color: white ;
+        
+ }
+ 

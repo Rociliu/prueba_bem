@@ -5,153 +5,133 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
     <title>Prueba BEM Ejercicio_ES6</title>
 </head>
 
 <body>
 <header class="header">
         <img class="header__imag" src="./images/viajes.png" alt="logo corporativo">
+
+    </div>
+    <div class="header-nav">
+      <a href="#" class="header-nav__button"
+        ><i class="fa-regular fa-lightbulb"></i> Agencias</a
+      >
+      <a href="#" class="header-nav__button"
+        ><i class="fa-solid fa-circle-info"></i> Preguntas Frecuentes</a
+      >
+      <a href="#" class="header-nav__button"
+        ><i class="fa-solid fa-user"></i> Identifícate</a
+      >
+      <a href="#" class="header-nav__button"
+        ><i class="fa-solid fa-phone"></i> 911 22 00 44</a
+      >
+    </div>
 </header>
 
 <main>
-     
+  
 <div class="sardinia">
     <img class="sardinia__img" src="../images/cerdeña.jpg" alt="Playa de Cerdeña">
     <div class="sardinia__info">
-        <h3 class="sardinia__info--h3">Verano en Cerdeña, la Costa Esmeralda</h3>
-        <p class="sardinia__info--p">8 días / 7 noches con vuelos directos desde Madrid o Barcelona</p>
+        <h3 class="sardinia__h3">Verano en Cerdeña, la Costa Esmeralda</h3>
+        <p class="sardinia__p">8 días / 7 noches con vuelos directos desde Madrid o Barcelona</p>
     </div>
     <div class="sardinia__price">
-     <p class="sardinia__price--letter">desde</p>
-     <span class="sardinia__price--number"> 602€
-    </span>
-   
-    <button class="sardinia__price--button"> MÁS INFORMACIÓN > </button>
+        <p class="sardinia--p">desde</p>
+        <span class="sardinia__number"> 602€</span>
+        <button class="sardinia__button"> MÁS INFORMACIÓN <span class="material-symbols-outlined">
+        chevron_right</span> </button>
     </div>
 </div>
-
+<!-- item2 -->   
 <div class="toscana">
-    <img src="../images/toscana.jpg" alt="">
-    <div class="info">
-        <h3>Toscana gastronómica</h3>
-        <p>5 días / 4 noches disfrutando de la degustación de las delicias locales y sus aperitivos.</p>
+    <img class="toscana__img" src="../images/toscana.jpg" alt="Imágen aérea de Florencia">
+    <div class="toscana__info">
+        <h3 class="toscana__h3">Toscana gastronómica</h3>
+        <p class="toscana__p">5 días / 4 noches disfrutando de la degustación de las delicias locales y sus aperitivos.</p>
     </div>
-    <div class="price">
-        <span class="letter">desde</span>
-        <span class="number">540€</span>
+    <div class="toscana__price">
+        <p class="toscana--p">desde</p>
+        <span class="toscana__number">540€</span>
+        <button class="toscana__button"> MÁS INFORMACIÓN <span class="material-symbols-outlined">
+            chevron_right</span> </button>
     </div>
-    <button> MÁS INFORMACIÓN > </button>
+   
 </div>
-
+<!-- item3 -->   
 
 <div class="fiordos">
-    <img src="../images/fiordos1.jpg" alt="#">
-    <div class="info">
-        <h3>Fiordos Noruegos</h3>
-        <p>8 días / 7 noches con vuelos, hoteles, traslados visitas según itinerario + 9 comidas.</p>
+    <img class="fiordos__img" src="../images/fiordos1.jpg" alt="Vista de los fiordos y casas de colores">
+    <div class="fiordos__info">
+        <h3 class="fiordos__h3">Fiordos Noruegos</h3>
+        <p class="fiordos__p">8 días / 7 noches con vuelos, hoteles, traslados visitas según itinerario + 9 comidas.</p>
     </div>
-    <div class="price">
-        <span class="letter">desde</span>
-        <span class="number">1.175€</span>
+    <div class="fiordos__price">
+        <p class="fiordos--p">desde</p>
+        <span class="fiordos__number">1.175€</span>
+  
+    <button class="fiordos__button"> MÁS INFORMACIÓN <span class="material-symbols-outlined">
+        chevron_right</span> </button>
     </div>
-    <button> MÁS INFORMACIÓN > </button>
 </div>
-
+<!-- item4 -->   
 
 <div class="munich">
-    <img src="../images/munich.jpg" alt="#">
-    <div class="info">
-        <h3>Múnich y Europa Park</h3>
-        <p>6 días / 5 noches en hoteles categoría turista superior + entradas de 3 días al parque.</p>
+    <img class="munich__img"src="../images/munich.jpg" alt="Vista aérea plaza de Munich">
+    <div class="munich__info">
+        <h3 class="munich__h3">Múnich y Europa Park</h3>
+        <p class="munich__p">6 días / 5 noches en hoteles categoría turista superior + entradas de 3 días al parque.</p>
     </div>
-    <div class="price">
-        <span class="letter">desde</span>
-        <span class="number">1.545€</span>
+    <div class="munich__price">
+        <p class="munich--p">desde</p>
+        <span class="munich__number">1.545€</span>
+   
+    <button class="munich__button"> MÁS INFORMACIÓN <span class="material-symbols-outlined">
+        chevron_right</span> </button>
     </div>
-    <button> MÁS INFORMACIÓN > </button>
 </div>
-
-
-<div class="egipto">
-    <img src="../images/egipto.jpg" alt="#">
-    <div class="info">
-        <h3>Egipto para todos</h3>
-        <p>8 días / 7 noches, crucero por el Nilo en Pensión Completa y estancia en El Cairo en Alojamiento y Desayuno. Visitas.</p>
-    </div>
-    <div class="price">
-        <span class="letter">desde</span>
-        <span class="number">650€</span>
-    </div>
-    <button> MÁS INFORMACIÓN > </button>
-</div>
-
-
-<div class="marrakech">
-    <img src="./images/marrakech.jpg" alt="#">
-    <div class="info">
-        <h3>Marrakech en Todo Incluido</h3>
-        <p>8 días / 7 noches. Todo incluido hotel Be Live Experience Marrakech Palmerale 4*.</p>
-    </div>
-    <div class="price">
-        <span class="letter">desde</span>
-        <span class="number">459€</span>
-    </div>
-    <button> MÁS INFORMACIÓN > </button>
-</div>
-
-<div class="NY">
-    <img src="./images/NewYork.jpg" alt="#">
-    <div class="info">
-        <h3>Nueva York en familia</h3>
-        <p>6 días / 4. Incluye vuelos + hotel en habitación cuádruple.</p>
-    </div>
-    <div class="price">
-        <span class="letter">desde</span>
-        <span class="number">530€</span>
-    </div>
-    <button> MÁS INFORMACIÓN > </button>
-</div>
-
-
-<div class="puntacana">
-    <img src="./images/puntacana.jpg" alt="#">
-    <div class="info">
-        <h3>Calidad 5* Bahía Príncipe en Punta Cana</h3>
-        <p>Disfruta de un hotel de lujo en el Caribe, además ¡niños gratis en estancia!.</p>
-    </div>
-    <div class="price">
-        <span class="letter">desde</span>
-        <span class="number">966€</span>
-    </div>
-    <button> MÁS INFORMACIÓN > </button>
-</div>
-
+<!-- item5 -->   
 
 <div class="roma">
-    <img src="./images/roma.jpg" alt="#">
-    <div class="info">
-        <h3>Escápate a Roma</h3>
-        <p>3 días / 2 noches. Incluye vuelos + hoteles.</p>
+    <img class="roma__img" src="./images/roma.jpg" alt="#">
+    <div class="roma__info">
+        <h3 class="roma__h3">Escápate a Roma</h3>
+        <p class="roma__p">3 días / 2 noches. Incluye vuelos + hoteles.</p>
     </div>
-    <div class="price">
-        <span class="letter">desde</span>
-        <span class="number">120€</span>
+    <div class="roma__price">
+        <p class="roma--p">desde</p>
+        <span class="roma__number">120€</span>
+   
+    <button class="roma__button"> MÁS INFORMACIÓN <span class="material-symbols-outlined">
+        chevron_right</span> </button>
     </div>
-    <button> MÁS INFORMACIÓN > </button>
 </div>
 
+<!-- item6 -->   
 
 <div class="paris">
-    <img src="./images/paris.jpg" alt="#">
-    <div class="info">
-        <h3>Lo Mejor de París y Países Bajos con crucero por el Rhin.</h3>
-        <p>8 días / 7 noches, 3 noches en París, 1 en Bruselas, 2 en Ámsterdam y 1 en Frankfurt.</p>
+    <img class="paris__img" src="./images/paris.jpg" alt="#">
+    <div class="paris__info">
+        <h3 class="paris__h3">Lo Mejor de París y Países Bajos con crucero por el Rhin.</h3>
+        <p class="paris__p">8 días / 7 noches, 3 noches en París, 1 en Bruselas, 2 en Ámsterdam y 1 en Frankfurt.</p>
     </div>
-    <div class="price">
-        <span class="letter">desde</span>
-        <span class="number">854€</span>
+    <div class="paris__price">
+        <p class="paris--p">desde</p>
+        <span class="paris__number">854€</span>
+   
+
+    <button class="paris__button"> MÁS INFORMACIÓN <span class="material-symbols-outlined">
+        chevron_right</span></button>
     </div>
-    <button> MÁS INFORMACIÓN > </button>
+
 </div>
 
 
